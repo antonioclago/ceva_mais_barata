@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <EditText
+        android:id="@+id/edtNomeceva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da Ceva" />
+
+    <EditText
+        android:id="@+id/edtMl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ml's da Ceva"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço da Ceva"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar à Comparação" />
+
+    <Button
+        android:id="@+id/btnComparar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comparar" />
+</LinearLayout>
